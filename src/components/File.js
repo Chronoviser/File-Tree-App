@@ -33,7 +33,7 @@ function File({ name }) {
     }
 
     return (
-        <div style={{ padding: "5px" }}>
+        <div style={{ paddingLeft: "5px", paddingBottom: "5px", paddingRight: "5px" }}>
             <i className={className}></i>
             {name}
         </div>
